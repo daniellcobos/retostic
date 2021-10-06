@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Consulta de Doctores</title>
+        <meta charset="UTF-8">
+        <meta http-equiv = Access-Control-Allow-Origin content="*">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="js/funciones.js"></script>
+    </head>
+
+    <body >
+        <div style="text-align: center;">
+            <h2>Consulta de Doctores</h2>
+            <hr>
+            <span style="color: blue;"><b>ID</b></span>
+            <input type="text"  id="id">
+            <br>
+            <button onclick="consultarDoctores()">MOSTRAR TODO</button>
+            &nbsp;&nbsp;&nbsp;
+            <button onclick="buscarPorID($('#id'))">MOSTAR UNO</button>
+            <hr style="width: 30%; text-align: left;"> 
+            <div id="resultado"></div> 
+            <hr style="width: 30%; text-align: left;"> 
+           <a href="creacionDoctores.html" title="Agregar Gasto">AGREGAR</a>
+        </div>
+    </body>
+</html>

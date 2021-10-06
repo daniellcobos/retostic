@@ -1,0 +1,42 @@
+<html>
+    <head>
+        <title>Registro de Doctores</title>
+        <meta charset="UTF-8">
+        <meta http-equiv = Access-Control-Allow-Origin content="*">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="js/funciones.js"></script>
+    </head>
+    <body>
+        <h2>Registro de Doctores </h2>
+        <fieldset style="width: 30%">
+            <legend>Datos del Doctor</legend>
+            <table>
+               
+               <tr>
+                   <th>Nombre:</th>
+                   <td><input type="text" id="name"> </td>
+               </tr> 
+               <tr>
+                    <th>Especialidad: </th>
+                    <td><input type="text" id="specialty"> </td>
+                </tr> 
+                <tr>
+                    <th>Año de graduacion:</th>
+                    <td><input type="number" id="year"> </td>
+                </tr> 
+                <tr>
+                    <th>Departamento:</th>
+                    <td><input type="number" id="department"> </td>
+                </tr> 
+                <tr>
+                    <td colspan="2">
+                        <input type="button" value="GUARDAR" onclick="guardar()"> &nbsp;&nbsp;&nbsp;
+                    </td>
+                </tr> 
+                
+            </table>
+        </fieldset>
+        <br>
+        <a href="consultaDoctores.html" title="Consultar Doctores">CONSULTAR</a>
+    </body>
+</html>
